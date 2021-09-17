@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
@@ -21,7 +20,7 @@ body {
   background-color: #f8f9fa;
 
   &__logo {
-    padding: 1.5rem;
+    padding: 2rem 20rem;
   }
   &__container {
     display: flex;
@@ -35,8 +34,8 @@ body {
   &__link {
     text-transform: uppercase;
     text-decoration: none;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
   }
 
   &__link:hover {
@@ -46,12 +45,12 @@ body {
 }
 
 .mainmenu {
-  margin: 0 auto;
+  margin: auto;
   justify-content: center;
   width: 60vw;
 }
 
-.menu__row1 {
+&__row1 {
   display: flex;
   flex-direction: row;
   line-height: 2em;
@@ -79,7 +78,7 @@ body {
 .menu__row2 {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  margin: auto;
   width: 60vw;
   line-height: 2em;
   margin-top: 2em;
@@ -104,7 +103,7 @@ h4 {
 .menu__row3 {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: auto;
   width: 60vw;
   line-height: 2em;
   margin-top: 2em;
