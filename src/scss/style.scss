@@ -4,7 +4,7 @@
 
 html {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -81,6 +81,13 @@ body {
   margin: auto;
 }
 
+.main__map {
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  margin: auto;
+}
+
 footer {
   width: 100vw;
   display: flex;
@@ -88,13 +95,6 @@ footer {
   justify-content: center;
   margin: auto;
   background-color: #343a40;
-}
-
-.main__map {
-  width: 60vw;
-  height: 60vh;
-  display: flex;
-  margin: auto;
 }
 
 .footer__container {
